@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p
+{
+    font-size: 1.5rem;
+}
+
+:root
+{
+    --theme: rgb(26, 47, 255);
+}
+
+header 
+{
+    position: sticky;
+}
+
+nav .navbar-nav li a{
+    color: white !important;
+    }
+  
+    
+.navbar-light
+{
+    background-color: var(--theme);
+    height: 200px;
+
+}
+
+#logoHeader
+{
+    height: 200px;
+    position: absolute;
+    right: 0;
+}
+
+
+.parallax
+{
+    /*Hauteur*/
+    height: 900px;
+
+    /* Creation d'un parallax*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*Transparence*/
+    opacity: 0.3;
+}
+
+#img1
+{
+    /*Image en parallax*/
+    background-image: url(./photos/roof-4125765_1920.jpg);
+}
+
+#img2
+{
+    /*Image en parallax*/
+    background-image: url(./photos/roof-tile-1350179_1280.jpg);
+}
+
+#img3
+{
+    /*Image en parallax*/
+    background-image: url(./photos/roof-4125765_1920.jpg);
+}
+
+#maps
+{
+    border: 3px solid var(--theme);
+
+}
+
+#phone
+{
+    height: 20px;
+    width: 20px;
+}
+
+#mail
+{
+    height: 20px;
+    width: 20px;
+}
+
+#contact
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+
+}
+
+#conteneurInfos
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#conteneurAdresse>p
+{
+    padding-left: 25px;
+}
+
+#conteneurPhone
+{
+    display: flex;
+    flex-direction: row;
+}
+#conteneurPhone>p
+{
+    padding-left: 5px;
+}
+
+#conteneurMail
+{
+    display: flex;
+    flex-direction: row;
+}
+#conteneurMail>p
+{
+    padding-left: 5px;
+}
+
+#coordonnees
+{
+    border: 3px solid var(--theme);
+    height: 400px;
+    margin-top: 90px;
+}
+
+footer
+{
+    /*fixed*/
+    background-color: lightgrey;
+}
